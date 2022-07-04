@@ -16,7 +16,7 @@ public class Server {
             String word = bufferedReader.readLine();
             System.out.println(word);
             bufferedWriter.write("Echo " + word);
-            bufferedWriter.flush();
+
         }
     }
 }
